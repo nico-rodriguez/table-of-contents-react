@@ -1,0 +1,17 @@
+a {
+  color: #A6ACC9;
+  text-decoration: none;
+}
+
+li {
+  margin: 18px;
+}
+
+li.active > a {
+  color: white;
+}
+
+li > a:hover {
+  color: white;
+  transition: 0.25s;
+}

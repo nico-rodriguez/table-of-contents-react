@@ -1,0 +1,18 @@
+nav {
+  position: sticky;
+  top: 24px;
+
+  max-height: calc(100vh - 70px);
+  overflow: auto;
+  min-width: 220px;
+
+  padding: 16px;
+  margin: 8px;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+}
